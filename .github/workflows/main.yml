@@ -23,7 +23,7 @@ jobs:
       run: |
         echo "Running all python scripts in the repo.."
         for file in $(find . -name "*.py");do
-          echo"▶ Running $file"
+          echo "▶ Running $file"
           python "$file"
         done
   
